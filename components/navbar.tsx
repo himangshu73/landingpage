@@ -15,7 +15,7 @@ export default function Navbar() {
         <div>Blog</div>
       </div>
       <div>
-        <button className="border border-1 rounded-full px-4 py-2 font-semibold">
+        <button className="border rounded-full px-4 py-2 font-semibold">
           Contact Us
         </button>
       </div>
