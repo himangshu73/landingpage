@@ -1,3 +1,4 @@
+import Accordian from "@/components/accordian/accordian";
 import Hero from "@/components/hero";
 import KnowMore from "@/components/knowmore";
 import Navbar from "@/components/navbar";
@@ -9,6 +10,7 @@ export default function Home() {
       <hr className="border-t border-gray-300 my-4" />
       <Hero />
       <KnowMore />
+      <Accordian />
     </div>
   );
 }
