@@ -23,7 +23,7 @@ export default function Accordian() {
               className="text-lg font-semibold"
             >
               <div className="flex items-center justify-between">
-                <span>{dataItem.question}</span>
+                <span className="text-primary">{dataItem.question}</span>
                 <Image
                   src="/chevron-up.png"
                   width={25}

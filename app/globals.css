@@ -3,3 +3,13 @@
 body {
   font-family: var(--font-urbanist);
 }
+
+@theme {
+  --color-primary: #df6751;
+}
+
+@layer base {
+  h1 {
+    @apply text-[64px] font-semibold leading-[1.2];
+  }
+}

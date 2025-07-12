@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function KnowMore() {
   return (
-    <div className="px-16 py-8 bg-purple-100 rounded-xl">
+    <div className="px-16 py-8 bg-primary/15 rounded-xl">
       <div className="text-center py-4">
         <p className="text-xs">ABOUT US</p>
         <h2 className="text-4xl font-bold">Know More about us.</h2>
